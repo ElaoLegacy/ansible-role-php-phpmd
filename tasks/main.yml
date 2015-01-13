@@ -1,0 +1,6 @@
+---
+
+- name: packages
+  shell: >
+    composer global require "phpmd/phpmd=@stable"
+    creates=~/.composer/vendor/bin/phpmd
